@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+        beStrictAboutChangesToGlobalState="false"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutTestSize="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="allTests">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+        <blacklist>
+            <directory>./vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
