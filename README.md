@@ -3,6 +3,7 @@ Zend Sentry Logger
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dasao/sentry-logger/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dasao/sentry-logger/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/dasao/sentry-logger/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dasao/sentry-logger/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/dasao/sentry-logger/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dasao/sentry-logger/build-status/master)
 
 About
 -----
